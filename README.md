@@ -1,9 +1,9 @@
 ## Fortran codes for numerical integral of local terrain effects on various gravity field elements outside geoid
 https://www.zcyphygeodesy.com/en/h-nd-125.html
 ## [Algorithm purpose]
-    Using the rigorous numerical integral algorithm, from the ground digital elevation model and ground ellipsoidal height grid, compute the local terrain effects on the height anomaly (m), gravity (anomaly/disturbance, mGal), vertical deflection (ʺ, to south, to west) or (disturbing) gravity gradient (E, radial) on or outside the geoid.
-    The normal gravity field is the agreed starting datum for the anomalous gravity field, and there is no terrain effect on the normal gravity field. Therefore, the terrain effects on the gravity, gravity disturbance and  gravity anomaly anywhere are exact equal, that on the geopotential and disturbing geopotential and that on the gravity gradient and disturbing gravity gradient are also equal, espectively.
-    The terrain effect on field element is equal to the negative value of the classic terrain correction, such as the local terrain effect is equal to the negative local terrain correction.
+&emsp;```Using the rigorous numerical integral algorithm, from the ground digital elevation model and ground ellipsoidal height grid, compute the local terrain effects on the height anomaly (m), gravity (anomaly/disturbance, mGal), vertical deflection (ʺ, to south, to west) or (disturbing) gravity gradient (E, radial) on or outside the geoid.```  
+&emsp;```The normal gravity field is the agreed starting datum for the anomalous gravity field, and there is no terrain effect on the normal gravity field. Therefore, the terrain effects on the gravity, gravity disturbance and  gravity anomaly anywhere are exact equal, that on the geopotential and disturbing geopotential and that on the gravity gradient and disturbing gravity gradient are also equal, espectively.```  
+&emsp;```The terrain effect on field element is equal to the negative value of the classic terrain correction, such as the local terrain effect is equal to the negative local terrain correction.```
 ## [Main program for test entrance]
     Localterrianeffintgrl.f90
     The record format of the input calculation point file: ID (point no / point name), longitude (decimal degrees), latitude (decimal degrees), ellipsoidal height (m)......
